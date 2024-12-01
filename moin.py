@@ -17,7 +17,7 @@ ADMIN_USER_ID = 6470028996 # Replace with your admin user ID
 ADMIN_USERNAME = 'ASHRAFGMING'  # Replace with your admin's Telegram username (without @)
 
 # Customizable messages'
-OWNER_NAME = '@Vip_Ddos_07'  # Change this to the owner's name
+OWNER_NAME = '@ASHRAFGMING'  # Change this to the owner's name
 WELCOME_MESSAGE = (
     f"🤗 𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐓𝐇𝐄 𝐀𝐓𝐓𝐀𝐂𝐊 𝐁𝐎𝐓⚡\n\n"
     f"𝐎𝐖𝐍𝐄𝐑 💯 {OWNER_NAME} 🔥\n\n"
@@ -152,7 +152,7 @@ async def attack(update: Update, context: CallbackContext):
         await context.bot.send_message(
             chat_id=chat_id, 
             text="*🌟 𝐄𝐍𝐓𝐄𝐑 𝐓𝐇𝐄 :--> <𝐈𝐏> <𝐏𝐎𝐑𝐓> <𝐓𝐈𝐌𝐄> ⚡\n\n💀 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 ✨ -> @ASHRAFGMING 🎯!*",
-            parse_mode='Markdown
+            
         )
         return
 
@@ -229,5 +229,7 @@ def main():
     application.run_polling()
 
 if __name__ == '__main__':
+    main()
+    __':
     main()
     
