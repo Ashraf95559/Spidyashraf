@@ -227,10 +227,7 @@ def main():
     application.add_handler(CallbackQueryHandler(stop_attack, pattern="stop_attack"))
 
     application.run_polling()
-
-
-    
-    
+           
        
         in()
                main()
